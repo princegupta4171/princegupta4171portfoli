@@ -1,0 +1,70 @@
+.contact {
+  padding: 6rem 0;
+  background: var(--gray-50);
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.sectionTitle {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.sectionTitle span { color: var(--blue); }
+
+.subtitle {
+  color: var(--gray-600);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.25rem 2rem;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--gray-700);
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  min-width: 220px;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card i {
+  font-size: 1.25rem;
+  color: var(--blue);
+}
+
+.card:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+  box-shadow: 0 8px 25px rgba(37,99,235,0.1);
+  transform: translateY(-3px);
+}

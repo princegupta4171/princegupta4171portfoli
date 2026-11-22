@@ -1,0 +1,12 @@
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background: var(--gray-900);
+  color: var(--gray-400);
+  font-size: 0.875rem;
+}
+
+.footer span {
+  color: var(--blue);
+  font-weight: 600;
+}
